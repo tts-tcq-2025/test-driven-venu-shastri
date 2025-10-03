@@ -17,11 +17,11 @@ the first line is optional. all existing scenarios should still be supported
 - Delimiters can be of any length with the following format: “//[delimiter]\n” for example: “//[***]\n1***2***3” should return 6
 
 ## TestSpecification
-| Test ID | Input   | Expected Output | Notes                          |
-| ------- | ------- | --------------- | ------------------------------ |
-| TC-01   | `""`    | `0`             | Empty string returns 0         |
-| TC-02   | `"1"`   | `1`             | Single number                  |
-| TC-03   | `"1,2"` | `3`             | Two numbers separated by comma |
+| Test ID | Test Name                   | Input   | Expected Output | Notes                          |
+| ------- | --------------------------- | ------- | --------------- | ------------------------------ |
+| TC-01   | ReturnZeroForEmptyString    | `""`    | `0`             | Empty string returns 0         |
+| TC-02   | ReturnSingleNumber          | `"1"`   | `1`             | Single number                  |
+| TC-03   | SumTwoCommaSeparatedNumbers | `"1,2"` | `3`             | Two numbers separated by comma |
 
 
 ## Tasks
